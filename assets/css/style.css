@@ -1,0 +1,27 @@
+.wrapper-container {
+  padding: 0 5rem;
+}
+/* classe active for navigation */
+.active {
+  color:crimson;
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+/* hero image */
+#hero-img {
+  background-image: url("../img/mito-header.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 80vh;
+}
+
+/* overlay */
+#overlay {
+  background-color: rgba(0, 0, 0, 0.606);
+  position: absolute;
+  width:100%;
+  height: 80vh;
+  z-index: 20;
+}
